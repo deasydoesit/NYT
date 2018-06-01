@@ -3,10 +3,13 @@
     var beginDate = "";
     var endDate = "";
 
-$("button").on("click", function() {
+
+$("#search-button").on("click", function() {
+
+    console.log("hell0");
 
     searchTerm = $("#search-term").val();
-    page = $("#page").val();
+    page = $("#page").find(":selected").text();
     beginDate = $("#begin-date").val();
     endDate = $("#end-date").val();
 
