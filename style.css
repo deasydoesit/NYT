@@ -1,0 +1,17 @@
+#icon {
+  height: 100px;
+}
+#title {
+  padding-top: 10px;
+
+}
+h1 {
+  font-size: 60px;
+  color: white;
+}
+.jumbotron {
+  background-color: rgb(77, 79, 82)
+}
+#spaceholder {
+  height: 30px;
+}
